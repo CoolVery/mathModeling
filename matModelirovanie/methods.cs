@@ -969,9 +969,7 @@ namespace Modelirovanie
         }
         private static int[,] AgainArrayOfCost(int[,] ArrayOfCost, int[,] Tarifs)
         {
-            string sas = "55 53 222";
-            int[] arr = new int[3];
-            arr = sas.Split(" ").Select(int.Parse).ToArray();
+
             
             Console.WriteLine("Введите переопределенный опорный план:");
             for (int i = 0; i < ArrayOfCost.GetLength(0); i++)
