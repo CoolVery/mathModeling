@@ -8,19 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\zepli\\.nuget\\packages\\": {}
+    "C:\\Users\\КуклевГА\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\zepli\\source\\repos\\matModelirovanie\\matModelirovanie\\matModelirovanie.csproj",
+      "projectUniqueName": "C:\\Users\\КуклевГА\\Source\\Repos\\TrueMatModel\\matModelirovanie\\matModelirovanie.csproj",
       "projectName": "matModelirovanie",
-      "projectPath": "C:\\Users\\zepli\\source\\repos\\matModelirovanie\\matModelirovanie\\matModelirovanie.csproj",
-      "packagesPath": "C:\\Users\\zepli\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\zepli\\source\\repos\\matModelirovanie\\matModelirovanie\\obj\\",
+      "projectPath": "C:\\Users\\КуклевГА\\Source\\Repos\\TrueMatModel\\matModelirovanie\\matModelirovanie.csproj",
+      "packagesPath": "C:\\Users\\КуклевГА\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\КуклевГА\\Source\\Repos\\TrueMatModel\\matModelirovanie\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\zepli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\КуклевГА\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
       }
     }
   }
