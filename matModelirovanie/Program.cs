@@ -49,7 +49,7 @@ using Modelirovanie;
 //}
 
 SimpleTable tab = new SimpleTable();
-tab.WorkWithTable();
+tab.CreateTable();
 
 
 
