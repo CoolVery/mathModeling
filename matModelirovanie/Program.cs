@@ -49,7 +49,25 @@ using Modelirovanie;
 //}
 
 SimpleTable tab = new SimpleTable();
-tab.CreateTable();
+Console.WriteLine("Введите тип задачи");
+tab.TypeTask = Console.ReadLine();
+switch (tab.TypeTask)
+{
+    case "Минимум":
+        while (tab.CheckMinTask())
+        {
+            tab.StartWorkWithTable();
+        }
+        break;
+    case "Максимум":
+        while (tab.CheckMaxTask())
+        {
+            tab.StartWorkWithTable();
+        }
+        break;
+}
+
+
 
 
 

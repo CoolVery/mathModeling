@@ -27,3 +27,17 @@ C:\Users\КуклевГА\Source\Repos\TrueMatModel\matModelirovanie\obj\Debug\n
 C:\Users\КуклевГА\Source\Repos\TrueMatModel\matModelirovanie\obj\Debug\net7.0\matModelirovanie.pdb
 C:\Users\КуклевГА\Source\Repos\TrueMatModel\matModelirovanie\obj\Debug\net7.0\matModelirovanie.genruntimeconfig.cache
 C:\Users\КуклевГА\Source\Repos\TrueMatModel\matModelirovanie\obj\Debug\net7.0\ref\matModelirovanie.dll
+C:\Users\zepli\Source\Repos\TrueMatModel\matModelirovanie\obj\Debug\net7.0\matModelirovanie.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zepli\Source\Repos\TrueMatModel\matModelirovanie\obj\Debug\net7.0\matModelirovanie.AssemblyInfoInputs.cache
+C:\Users\zepli\Source\Repos\TrueMatModel\matModelirovanie\obj\Debug\net7.0\matModelirovanie.AssemblyInfo.cs
+C:\Users\zepli\Source\Repos\TrueMatModel\matModelirovanie\obj\Debug\net7.0\matModelirovanie.csproj.CoreCompileInputs.cache
+C:\Users\zepli\Source\Repos\TrueMatModel\matModelirovanie\obj\Debug\net7.0\matModelirovanie.dll
+C:\Users\zepli\Source\Repos\TrueMatModel\matModelirovanie\obj\Debug\net7.0\refint\matModelirovanie.dll
+C:\Users\zepli\Source\Repos\TrueMatModel\matModelirovanie\obj\Debug\net7.0\matModelirovanie.pdb
+C:\Users\zepli\Source\Repos\TrueMatModel\matModelirovanie\bin\Debug\net7.0\matModelirovanie.exe
+C:\Users\zepli\Source\Repos\TrueMatModel\matModelirovanie\bin\Debug\net7.0\matModelirovanie.deps.json
+C:\Users\zepli\Source\Repos\TrueMatModel\matModelirovanie\bin\Debug\net7.0\matModelirovanie.runtimeconfig.json
+C:\Users\zepli\Source\Repos\TrueMatModel\matModelirovanie\bin\Debug\net7.0\matModelirovanie.dll
+C:\Users\zepli\Source\Repos\TrueMatModel\matModelirovanie\bin\Debug\net7.0\matModelirovanie.pdb
+C:\Users\zepli\Source\Repos\TrueMatModel\matModelirovanie\obj\Debug\net7.0\matModelirovanie.genruntimeconfig.cache
+C:\Users\zepli\Source\Repos\TrueMatModel\matModelirovanie\obj\Debug\net7.0\ref\matModelirovanie.dll
