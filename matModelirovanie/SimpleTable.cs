@@ -21,7 +21,7 @@ namespace matModelirovanie
         {
             InputSystem();
             OutputSystem();
-            
+
         }
         public void InputSystem()
         {
@@ -60,6 +60,7 @@ namespace matModelirovanie
             {
                 Console.WriteLine($"Введите значение уравнения {countI}");
                 simpleTable[i, simpleTable.GetLength(1) - 1] = Convert.ToDecimal(Console.ReadLine());
+                countI++;
             }
 
         }
@@ -143,13 +144,13 @@ namespace matModelirovanie
                 tableAll[tableAll.GetLength(0) - 1, i] = 0 - celFunction[i - 1];
             }
             PrintTable();
-            
+
         }
-       public bool CheckMinTask()
+        public bool CheckMinTask()
         {
             for (int i = 1; i < tableAll.GetLength(1) - 1; i++)
             {
-                if (tableAll[tableAll.GetLength(0) - 1, i] > 0) return true;               
+                if (tableAll[tableAll.GetLength(0) - 1, i] > 0) return true;
             }
             return false;
         }
@@ -178,8 +179,8 @@ namespace matModelirovanie
                         maxElemIndex = i;
                     }
                 }
-                
-                for (int i = 1; i < tableAll.GetLength(1) - 1; i++)
+
+                for (int i = 1; i < tableAll.GetLength(0) - 1; i++)
                 {
                     if (tableAll[i, maxElemIndex] != 0 && tableAll[i, tableAll.GetLength(1) - 1] / tableAll[i, maxElemIndex] > 0)
                     {
@@ -235,5 +236,20 @@ namespace matModelirovanie
             }
             PrintTable();
         }
+        public void PrintAnswer()
+        {
+            Console.WriteLine($"Целевая функция равна - {tableAll[(tableAll.GetLength(0) - 1), (tableAll.GetLength(1) - 1)]}");
+            int countValue = celFunction.Length;
+            for (int i = tableAll.GetLength(0) - 2; i > 0; i--)
+            {
+                if (tableAll[i, 0] <= countValue)
+                {
+                    Console.WriteLine($"Аргумент целевой функции x{tableAll[i, 0]} = {tableAll[i, tableAll.GetLength(1) - 1]}");
+
+                }
+            }
+
+        }
     }
 }
+
